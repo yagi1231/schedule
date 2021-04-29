@@ -6,7 +6,11 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module Rails2
+=======
+module Rails1
+>>>>>>> origin/master
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
@@ -18,8 +22,11 @@ module Rails2
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+<<<<<<< HEAD
     config.action_controller.permit_all_parameters = true
     config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
+=======
+>>>>>>> origin/master
   end
 end

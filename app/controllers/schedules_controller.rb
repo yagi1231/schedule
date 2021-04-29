@@ -1,4 +1,5 @@
 class SchedulesController < ApplicationController
+<<<<<<< HEAD
  
   def index
     @schedules = Schedule.all
@@ -54,3 +55,8 @@ end
 
   
 
+=======
+  def hello
+  end
+end
+>>>>>>> origin/master

@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2021_04_28_084543) do
 
   create_table "Schedules", force: :cascade do |t|
@@ -20,6 +21,18 @@ ActiveRecord::Schema.define(version: 2021_04_28_084543) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "introduction"
+=======
+ActiveRecord::Schema.define(version: 2021_04_24_152041) do
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.integer "start"
+    t.integer "end"
+    t.integer "update"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+>>>>>>> origin/master
   end
 
 end
