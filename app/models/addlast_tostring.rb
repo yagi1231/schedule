@@ -1,0 +1,2 @@
+class AddlastTostring < ApplicationRecord
+end
